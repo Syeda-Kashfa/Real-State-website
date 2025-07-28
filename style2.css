@@ -1,8 +1,9 @@
 @media screen and (min-width:701px) and (max-width:1500px) {
-*{
-    margin: 0;
-    padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     /* navbar */
     .header {
         display: flex;
@@ -19,17 +20,21 @@
     .logo img {
         width: 100px;
     }
-.navbar li {
+
+    .navbar li {
         list-style: none;
     }
-.navbar li a {
+
+    .navbar li a {
         text-decoration: none;
         color: rgba(0, 0, 1);
     }
-.logo img {
+
+    .logo img {
         width: 100px;
     }
-.btn button {
+
+    .btn button {
         width: 90px;
         height: 30px;
         border-radius: 40px;
@@ -66,25 +71,28 @@
 
     }
 
-.gallery1{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    
-}
-/* cards */
-.msgicon h1{
-    text-align: center;
-    padding: 30px 0;
-    font-size: 35px;
-}
-.msgicon h4{
-    text-align: center;
-    font-size: 22px;
-    padding-top: 50px;
-    
-}
-.msgicon{
+    .gallery1 {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    /* cards */
+    .msgicon h1 {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 35px;
+    }
+
+    .msgicon h4 {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 50px;
+
+    }
+
+    /* .msgicon{
     display: flex;
     flex-direction: column;
     font-family: poppins;
@@ -93,27 +101,89 @@
     height: 900px;
     flex-wrap: wrap;
     
-}
-.cards{
-    display: flex;
-    flex-direction: row;
-   height: 600px;
-   padding-top: 50px;
-   justify-content: center;
-   flex-wrap: wrap;
-   gap: 20px;
-   
-}
-.msg i{
-    font-size: 50px;
-}
-.msg{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 200px;
-    flex-wrap: wrap;
+} */
+    .cards {
+        display: flex;
+        width: 95%;
+        padding-top: 50px;
+
+        gap: 20px;
+
+    }
+
+    .msg i {
+        font-size: 50px;
+    }
+
+    .msg {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 250px;
+        font-family: poppins;
+    }
+
 }
 
+@media screen and (min-width:701px) and (max-width:950px) {
+    .main img {
+        width: 380px;
+        height: 550px;
+
+    }
+
+    .content p {
+        font-size: 16px;
+        width: 50%;
+    }
+
+    .inpt input {
+        width: 200px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+
+    .inpt {
+        position: relative;
+
+    }
+
+    .inpt button {
+        width: 50px;
+        height: 40px;
+        right: 250px;
+        font-size: 10px;
+    }
+
+    /* last section */
+    .end img {
+        width: 380px;
+        height: 550px;
+    }
+
+    .content2 p {
+        font-size: 16px;
+        width: 60%;
+    }
+
+    .inpT input {
+        width: 200px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+
+    .inpT {
+        position: relative;
+
+    }
+
+    .inpT button {
+        width: 50px;
+        height: 40px;
+        right: 250px;
+        font-size: 10px;
+    }
 }
