@@ -391,6 +391,7 @@ span {
         justify-self: center;
         width: 95%;
         height: 700px;
+        font-family: poppins;
     }
 
     .cards {
