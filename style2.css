@@ -92,22 +92,12 @@
 
     }
 
-    /* .msgicon{
-    display: flex;
-    flex-direction: column;
-    font-family: poppins;
-    justify-self: center;
-    width: 95%;
-    height: 900px;
-    flex-wrap: wrap;
-    
-} */
     .cards {
         display: flex;
         width: 95%;
         padding-top: 50px;
-
-        gap: 20px;
+        justify-self: center;
+         gap: 20px;
 
     }
 
